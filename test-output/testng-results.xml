@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49413" started-at="2017-12-25T12:11:04Z" finished-at="2017-12-25T12:11:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49413" started-at="2017-12-25T12:11:04Z" finished-at="2017-12-25T12:11:53Z">
+      <class name="practice.TC01">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:practice.TC01@192b07fd]" name="login" duration-ms="11059" started-at="2017-12-25T17:41:04Z" data-provider="asert" finished-at="2017-12-25T17:41:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:practice.TC01@192b07fd]" name="login" duration-ms="37855" started-at="2017-12-25T17:41:15Z" data-provider="asert" finished-at="2017-12-25T17:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCRM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- practice.TC01 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
